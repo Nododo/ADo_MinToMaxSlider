@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ADo_CircleView.h
 //  ADo_MinToMaxSlider
 //
 //  Created by 杜维欣 on 15/11/27.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface ADo_CircleView : UIView
 
 @end
-

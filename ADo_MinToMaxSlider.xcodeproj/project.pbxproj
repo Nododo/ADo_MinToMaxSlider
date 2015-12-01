@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4E0E5E1C0D477E009CC022 /* UIView+CornerMaskLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E0E5B1C0D477E009CC022 /* UIView+CornerMaskLayer.m */; };
+		1F4E0E5F1C0D477E009CC022 /* UIView+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E0E5D1C0D477E009CC022 /* UIView+Tool.m */; };
+		1F4E0E661C0D4791009CC022 /* ADo_CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E0E611C0D4791009CC022 /* ADo_CircleView.m */; };
+		1F4E0E671C0D4791009CC022 /* ADo_MinToMaxSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E0E631C0D4791009CC022 /* ADo_MinToMaxSlider.m */; };
+		1F4E0E681C0D4791009CC022 /* ADo_PopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E0E651C0D4791009CC022 /* ADo_PopUpView.m */; };
+		1F4E0E6A1C0D4B37009CC022 /* ADo_MinToMaxSlider.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1F4E0E691C0D4B37009CC022 /* ADo_MinToMaxSlider.gif */; };
 		1F8805701C07F52600C41B6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F88056F1C07F52600C41B6E /* main.m */; };
 		1F8805731C07F52600C41B6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8805721C07F52600C41B6E /* AppDelegate.m */; };
 		1F8805761C07F52600C41B6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8805751C07F52600C41B6E /* ViewController.m */; };
@@ -35,6 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F4E0E5A1C0D477E009CC022 /* UIView+CornerMaskLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerMaskLayer.h"; sourceTree = "<group>"; };
+		1F4E0E5B1C0D477E009CC022 /* UIView+CornerMaskLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerMaskLayer.m"; sourceTree = "<group>"; };
+		1F4E0E5C1C0D477E009CC022 /* UIView+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tool.h"; sourceTree = "<group>"; };
+		1F4E0E5D1C0D477E009CC022 /* UIView+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tool.m"; sourceTree = "<group>"; };
+		1F4E0E601C0D4791009CC022 /* ADo_CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADo_CircleView.h; sourceTree = "<group>"; };
+		1F4E0E611C0D4791009CC022 /* ADo_CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADo_CircleView.m; sourceTree = "<group>"; };
+		1F4E0E621C0D4791009CC022 /* ADo_MinToMaxSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADo_MinToMaxSlider.h; sourceTree = "<group>"; };
+		1F4E0E631C0D4791009CC022 /* ADo_MinToMaxSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADo_MinToMaxSlider.m; sourceTree = "<group>"; };
+		1F4E0E641C0D4791009CC022 /* ADo_PopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADo_PopUpView.h; sourceTree = "<group>"; };
+		1F4E0E651C0D4791009CC022 /* ADo_PopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADo_PopUpView.m; sourceTree = "<group>"; };
+		1F4E0E691C0D4B37009CC022 /* ADo_MinToMaxSlider.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ADo_MinToMaxSlider.gif; sourceTree = "<group>"; };
 		1F88056B1C07F52600C41B6E /* ADo_MinToMaxSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADo_MinToMaxSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F88056F1C07F52600C41B6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F8805711C07F52600C41B6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F4E0E581C0D46EA009CC022 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				1F4E0E621C0D4791009CC022 /* ADo_MinToMaxSlider.h */,
+				1F4E0E631C0D4791009CC022 /* ADo_MinToMaxSlider.m */,
+				1F4E0E641C0D4791009CC022 /* ADo_PopUpView.h */,
+				1F4E0E651C0D4791009CC022 /* ADo_PopUpView.m */,
+				1F4E0E601C0D4791009CC022 /* ADo_CircleView.h */,
+				1F4E0E611C0D4791009CC022 /* ADo_CircleView.m */,
+				1F4E0E5A1C0D477E009CC022 /* UIView+CornerMaskLayer.h */,
+				1F4E0E5B1C0D477E009CC022 /* UIView+CornerMaskLayer.m */,
+				1F4E0E5C1C0D477E009CC022 /* UIView+Tool.h */,
+				1F4E0E5D1C0D477E009CC022 /* UIView+Tool.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
 		1F8805621C07F52600C41B6E = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +135,12 @@
 		1F88056D1C07F52600C41B6E /* ADo_MinToMaxSlider */ = {
 			isa = PBXGroup;
 			children = (
+				1F4E0E581C0D46EA009CC022 /* File */,
 				1F8805711C07F52600C41B6E /* AppDelegate.h */,
 				1F8805721C07F52600C41B6E /* AppDelegate.m */,
 				1F8805741C07F52600C41B6E /* ViewController.h */,
 				1F8805751C07F52600C41B6E /* ViewController.m */,
+				1F4E0E691C0D4B37009CC022 /* ADo_MinToMaxSlider.gif */,
 				1F8805771C07F52600C41B6E /* Main.storyboard */,
 				1F88057A1C07F52600C41B6E /* Assets.xcassets */,
 				1F88057C1C07F52600C41B6E /* LaunchScreen.storyboard */,
@@ -244,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F88057E1C07F52600C41B6E /* LaunchScreen.storyboard in Resources */,
+				1F4E0E6A1C0D4B37009CC022 /* ADo_MinToMaxSlider.gif in Resources */,
 				1F88057B1C07F52600C41B6E /* Assets.xcassets in Resources */,
 				1F8805791C07F52600C41B6E /* Main.storyboard in Resources */,
 			);
@@ -271,7 +308,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F8805761C07F52600C41B6E /* ViewController.m in Sources */,
+				1F4E0E681C0D4791009CC022 /* ADo_PopUpView.m in Sources */,
+				1F4E0E671C0D4791009CC022 /* ADo_MinToMaxSlider.m in Sources */,
+				1F4E0E661C0D4791009CC022 /* ADo_CircleView.m in Sources */,
 				1F8805731C07F52600C41B6E /* AppDelegate.m in Sources */,
+				1F4E0E5F1C0D477E009CC022 /* UIView+Tool.m in Sources */,
+				1F4E0E5E1C0D477E009CC022 /* UIView+CornerMaskLayer.m in Sources */,
 				1F8805701C07F52600C41B6E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +540,7 @@
 				1F88059A1C07F52600C41B6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F88059B1C07F52600C41B6E /* Build configuration list for PBXNativeTarget "ADo_MinToMaxSliderTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +549,7 @@
 				1F88059D1C07F52600C41B6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F88059E1C07F52600C41B6E /* Build configuration list for PBXNativeTarget "ADo_MinToMaxSliderUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +558,7 @@
 				1F8805A01C07F52600C41B6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ADo_PopUpView.h
 //  ADo_MinToMaxSlider
 //
 //  Created by 杜维欣 on 15/11/27.
@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ADo_PopUpView : UIView
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic,copy)NSString *text;
+
+- (void)popUp;
+- (void)hide;
 
 @end
-

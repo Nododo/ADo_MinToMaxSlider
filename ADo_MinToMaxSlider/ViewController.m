@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ADo_MinToMaxSlider.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    ADo_MinToMaxSlider *slider = [[ADo_MinToMaxSlider alloc] initWithMaxValue:100];
+    slider.frame = CGRectMake(0, 100, self.view.frame.size.width, 100);
+    [self.view addSubview:slider];
+    
+    UILabel *minLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 200, 100, 100)];
+    minLabel.backgroundColor = [UIColor orangeColor];
+    minLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:minLabel];
+    
+    UILabel *maxLabel = [[UILabel alloc] initWithFrame:CGRectMake(self.view.frame.size.width - 100, 200, 100, 100)];
+    maxLabel.backgroundColor = [UIColor yellowColor];
+    maxLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:maxLabel];
+    
+    slider.minToMax = ^(int minValue,int maxValue)
+    {
+        minLabel.text = [NSString stringWithFormat:@"%d",minValue];
+        maxLabel.text = [NSString stringWithFormat:@"%d",maxValue];
+    };
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end
