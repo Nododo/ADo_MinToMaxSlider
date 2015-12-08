@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    ADo_MinToMaxSlider *slider = [[ADo_MinToMaxSlider alloc] initWithMaxValue:100];
+    ADo_MinToMaxSlider *slider = [[ADo_MinToMaxSlider alloc] initWithMaxValue:500];
     slider.frame = CGRectMake(0, 100, self.view.frame.size.width, 100);
     [self.view addSubview:slider];
     

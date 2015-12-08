@@ -28,7 +28,7 @@
     
     CGContextRef ctx1 = UIGraphicsGetCurrentContext();
     [[UIColor whiteColor] set];
-    CGContextAddEllipseInRect(ctx1, CGRectMake(1.5, 1.5, rect.size.width - 3, rect.size.height - 3));
+    CGContextAddEllipseInRect(ctx1, CGRectMake(1, 1, rect.size.width - 2, rect.size.height - 2));
     CGContextFillPath(ctx1);
     
 }

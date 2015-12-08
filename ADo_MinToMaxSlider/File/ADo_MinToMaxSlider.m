@@ -93,6 +93,9 @@ static float const KPopHeight = 25.0f;
     [self addSubview:progreesView];
     self.progreesView = progreesView;
     
+    //等比划分label显示
+    [self arrangeLabel];
+    
     //最小值
     ADo_CircleView *minView = [[ADo_CircleView alloc] init];
     [self addSubview:minView];
@@ -115,7 +118,6 @@ static float const KPopHeight = 25.0f;
     [self addSubview:maxPop];
     self.maxPop = maxPop;
 
-    [self arrangeLabel];
     [self addGesForCircleView];
 
     [self bringSubviewToFront:maxView];
